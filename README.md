@@ -13,7 +13,7 @@ Data for cases and deaths are downloaded from the website [NYT GitHub repository
 
 `nyt1.png`, `nyt2.png` and `nyt3.png` are the original plots given by NYTimes at Jan. 17, 2021. `georgia.png` is one bad example of data visualization.
 
-`reproduced_nyt1.png` is a reproduction of the plot of `nyt1.png`. `reproduced_nyt1_deaths.png` reproduces the death data. `reproduced_nyt1_table.png` and `reproduced_nyt1_table_raw.png` reproduced the table of `nyt1.png`. `reproduced_nyt2.png` reproduces `nyt2.jpg`. `reproduced_nyt3_table.png` reproduces `nyt3.png`. Please notice that the plot `reproduced_nyt1_table.png` is only available when knitted to .html. So I take a screenshot at it and attach it to my response. Removing `eval = F` on the code chunk yields the table shown by the .png file.
+`reproduced_nyt1.png` is a reproduction of the plot of `nyt1.png`. `reproduced_nyt1_deaths.png` reproduces the death data. `reproduced_nyt1_table.png` and `reproduced_nyt1_table_raw.png` reproduces the table of `nyt1.png`. `reproduced_nyt2.png` reproduces `nyt2.jpg`. `reproduced_nyt3_table.png` reproduces `nyt3.png`. Please notice that the plot `reproduced_nyt1_table.png` is only available when knitted to .html. So I take a screenshot at it and attach it to my response. Removing `eval = F` on the code chunk yields the table shown by the .png file.
 
 The file `BST270_Final.Rmd` is the RMarkdown source code, which knits (through package `knitr`) to html (`BST270_Final.html`) and pdf (`BST270_Final.pdf`) files.
 
