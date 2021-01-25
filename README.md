@@ -17,19 +17,29 @@ Data for cases and deaths are downloaded from the website [NYT GitHub repository
 
 The file `BST270_Final.Rmd` is the RMarkdown source code, which knits (through package `knitr`) to html (`BST270_Final.html`) and pdf (`BST270_Final.pdf`) files.
 
-The data would be reproduced when the data repository is cloned, and clicking on the "knit" icon would yield the result. I set `eval = F` for .png generators to reduce the time of running the code. The following packages are required to run my R Markdown file.
+The data would be reproduced when the data repository is cloned, and clicking on the "knit" icon would yield the result. I set `eval = F` for .png generators to reduce the time of running the code. The following packages are required to run my R Markdown file and quoted in `BST270_Final.Rmd`.
 
-library(ggplot2)
-library(tidyverse)
-library(stringr)
-library(zoo)
-library(lubridate)
-library(kableExtra)
-library(formattable)
-library(sparkline)
-library(magick)
-library(urbnmapr)
-library(urbnthemes)
+`ggplot2`
+
+`tidyverse`
+
+`stringr`
+
+`zoo`
+
+`lubridate`
+
+`kableExtra`
+
+`formattable`
+
+`sparkline`
+
+`magick`
+
+`urbnmapr`
+
+`urbnthemes`
 
 I use `R 3.6.2`, and the computer should support LaTeX in order to knit R Markdown into .pdf. R Studio is used to reproduce the data.
 
